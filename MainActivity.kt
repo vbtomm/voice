@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var waEngine: WAEngine
 
-    //E7AEVH-Q5WXJULPVX
+
 
 
     val pods = mutableListOf<HashMap<String, String>>()
@@ -142,7 +142,7 @@ class MainActivity : AppCompatActivity() {
 
     fun initWolframeEngine() {
         waEngine = WAEngine().apply {
-            appID = "E7AEVH-Q5WXJULPVX"
+            appID = "DEMO" //My Key here
             addFormat("plaintext")
         }
     }
